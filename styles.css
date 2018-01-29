@@ -1,0 +1,40 @@
+
+html,body {
+  height:100%;
+}
+
+.first {
+  height:100vh;
+  min-height:400px;
+  background-size:cover;
+  background-image:url('images/moon.jpg');
+}
+
+.affix {
+  background-color: #eee;
+  -webkit-transition:padding 0.2s ease-out;
+  -moz-transition:padding 0.2s ease-out;  
+  -o-transition:padding 0.2s ease-out;         
+  transition:padding 0.2s ease-out;
+}
+
+@media (min-width:768px) {
+    .affix-top {
+      background-color:transparent;
+      border-color:transparent; 
+    }
+}
+
+.navbar-brand {
+    text-align: right;
+}
+
+nav .navbar-nav .nav-link,
+nav .navbar-brand {
+   color: #000;
+}
+
+section {
+  height:calc(90% - 50px);
+  height: 90vh;
+}
